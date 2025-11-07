@@ -1,373 +1,196 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="ko">
 
 <head>
-
   <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IZ*ONE IQ Sensation!</title>
 
   <style>
-
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
     * {
-
       margin: 0;
-
       padding: 0;
-
       box-sizing: border-box;
-
     }
-
-
 
     body {
-
-      font-family: 'Poppins', sans-serif;
-
+      font-family: 'Poppins', 'Noto Sans KR', sans-serif;
       background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-
       color: #222;
-
       line-height: 1.6;
-
       padding: 2rem;
-
     }
-
-
 
     .container {
-
       max-width: 1000px;
-
       margin: 0 auto;
-
       background: rgba(255, 255, 255, 0.9);
-
       border-radius: 20px;
-
       padding: 2.5rem;
-
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     }
-
-
 
     h1 {
-
       text-align: center;
-
       font-size: 2.5rem;
-
       margin-bottom: 2rem;
-
       color: #d6336c;
-
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+      line-height: 1.3;
     }
-
-
 
     .subtitle {
-
       text-align: center;
-
       font-size: 1.2rem;
-
       color: #555;
-
       margin-bottom: 2.5rem;
-
     }
-
-
 
     table {
-
       width: 100%;
-
       border-collapse: collapse;
-
       margin-top: 1rem;
-
     }
 
-
-
-    th, td {
-
+    th,
+    td {
       padding: 1rem;
-
       text-align: center;
-
       border-bottom: 1px solid #ddd;
-
     }
-
-
 
     th {
-
       background-color: #f8d7da;
-
       color: #d6336c;
-
       font-weight: 700;
-
     }
-
-
 
     tr:hover {
-
       background-color: #fff0f3;
-
     }
-
-
 
     .ko {
-
       font-family: 'Noto Sans KR', sans-serif;
-
       font-size: 0.95em;
-
       color: #666;
-
     }
 
-
-
     @media (max-width: 768px) {
-
       body {
-
         padding: 1rem;
-
       }
 
       .container {
-
         padding: 1.5rem;
-
       }
 
       h1 {
-
         font-size: 2rem;
-
       }
-
     }
-
   </style>
-
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-
   <div class="container">
-
-    <h1>🤯 IZ*ONE MEMBERS HAVE GENIUS-LEVEL IQs! SCIENTISTS STUNNED! 🤯</h1>
-
-    <p class="subtitle">Exclusive IQ Data Revealed – You Won’t Believe #1!</p>
-
-
+    <h1>🤯 IZ*ONE 멤버들은 천재 수준의 IQs를 가지고 있다! 과학자들 충격! 🤯</h1>
+    <p class="subtitle">독점 IQ 데이터 공개 – 1위는 믿기 어려울 정도!</p>
 
     <table>
-
       <thead>
-
         <tr>
-
           <th>Member (EN)</th>
-
           <th class="ko">멤버 (KO)</th>
-
           <th>IQ Range</th>
-
           <th>Strengths (EN)</th>
-
           <th class="ko">강점 (KO)</th>
-
         </tr>
-
       </thead>
-
       <tbody>
-
         <tr>
-
           <td>Miyawaki Sakura</td>
-
-          <td class="ko">미yawaki 사쿠라</td>
-
+          <td class="ko">미야와키 사쿠라</td>
           <td>140–155</td>
-
           <td>Logical-verbal & Cognitive discipline</td>
-
           <td class="ko">논리-언어적, 인지적 규율</td>
-
         </tr>
-
         <tr>
-
           <td>Jang Wonyoung</td>
-
           <td class="ko">장원영</td>
-
           <td>145–150</td>
-
           <td>Logical-mathematical & Linguistics</td>
-
           <td class="ko">논리-수학적, 언어학</td>
-
         </tr>
-
         <tr>
-
           <td>Honda Hitomi</td>
-
           <td class="ko">혼다 히토미</td>
-
           <td>135–140</td>
-
           <td>Logic & Organizational</td>
-
           <td class="ko">논리적, 조직력</td>
-
         </tr>
-
         <tr>
-
           <td>Kwon Eunbi</td>
-
           <td class="ko">권은비</td>
-
           <td>130–135</td>
-
           <td>Technical-scientific</td>
-
           <td class="ko">기술-과학적</td>
-
         </tr>
-
         <tr>
-
           <td>An Yujin</td>
-
           <td class="ko">안유진</td>
-
           <td>130–135</td>
-
           <td>Analytical & Adaptive</td>
-
           <td class="ko">분석적, 적응력</td>
-
         </tr>
-
         <tr>
-
           <td>Lee Chaeyeon</td>
-
           <td class="ko">이채연</td>
-
           <td>125–130</td>
-
           <td>Linguistic & Emotional</td>
-
           <td class="ko">언어적, 정서적</td>
-
         </tr>
-
         <tr>
-
           <td>Kim Minju</td>
-
           <td class="ko">김민주</td>
-
           <td>125–130</td>
-
           <td>Musical & Linguistic</td>
-
           <td class="ko">음악적, 언어적</td>
-
         </tr>
-
         <tr>
-
           <td>Yabuki Nako</td>
-
           <td class="ko">야부키 나코</td>
-
           <td>120–125</td>
-
           <td>Kinesthetic & Spatial</td>
-
           <td class="ko">신체-운동적, 공간적</td>
-
         </tr>
-
         <tr>
-
           <td>Jo Yuri</td>
-
           <td class="ko">조유리</td>
-
           <td>120–125</td>
-
           <td>Musical & Emotional</td>
-
           <td class="ko">음악적, 정서적</td>
-
         </tr>
-
         <tr>
-
           <td>Kim Chaewon</td>
-
           <td class="ko">김채원</td>
-
           <td>115–120</td>
-
           <td>Musical & Creative</td>
-
           <td class="ko">음악적, 창의적</td>
-
         </tr>
-
         <tr>
-
           <td>Kang Hyewon</td>
-
           <td class="ko">강혜원</td>
-
           <td>115–120</td>
-
           <td>Practical & Adaptive</td>
-
           <td class="ko">실용적, 적응력</td>
-
         </tr>
-
       </tbody>
-
     </table>
-
   </div>
-
 </body>
 
 </html>
+
